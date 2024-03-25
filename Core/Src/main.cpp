@@ -6,12 +6,12 @@
 #define T4 444
 #define T8 222
 #define T16 111
-#define _0 {__HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, 0); HAL_Delay(T4); __HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, 36);}
-#define _0_ {__HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, 0); HAL_Delay(T8); __HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, 36);}
+#define _0   {__HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, 0); HAL_Delay(T4); __HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, 36);}
+#define _0_  {__HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, 0); HAL_Delay(T8); __HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, 36);}
 #define _0__ {__HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, 0); HAL_Delay(T16); __HAL_TIM_SetCompare(&htim4, TIM_CHANNEL_1, 36);}
-#define _ HAL_Delay(T4);
-#define __ HAL_Delay(T8);
-#define ___ HAL_Delay(T16);
+#define _    HAL_Delay(T4);
+#define __   HAL_Delay(T8);
+#define ___  HAL_Delay(T16);
 
 enum {Do = 0, Re = 2, Mi = 4, Fa = 5, So = 7, La = 9, Si = 11};
 
